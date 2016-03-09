@@ -1,0 +1,16 @@
+/* forced line-breaks */
+.cm-trailing-space-new-line:before {
+  content: '¬';
+  color: red;
+}
+
+/* button size */
+.editor-toolbar a:before {
+  font-size: 15px;
+}
+
+/* Editor font */
+.CodeMirror {
+  font-size: 110%;
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
