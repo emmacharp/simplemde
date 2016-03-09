@@ -36,3 +36,8 @@ line-height: 120%;
 font-size: 100%;
 line-height: 100%;
 }
+
+/* default Editor height ca. 1 line */
+.CodeMirror, .CodeMirror-scroll {
+min-height: 24px;
+}
