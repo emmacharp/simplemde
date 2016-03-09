@@ -1,6 +1,6 @@
 # SimpleMDE Markdown Editor
 
-Add SimpleMDE (https://github.com/NextStepWebs/simplemde-markdown-editor/) to markdown enabled fields.
+Add [SimpleMDE Markdown Editor](https://github.com/NextStepWebs/simplemde-markdown-editor/) to markdown enabled fields.
 
 ## Usage
 

@@ -14,3 +14,25 @@
   font-size: 110%;
   font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
 }
+
+/* Heading size */
+.CodeMirror .CodeMirror-code .cm-header-1 {
+font-size: 150%;
+line-height: 120%;
+}
+
+.CodeMirror .CodeMirror-code .cm-header-2 {
+font-size: 130%;
+line-height: 120%;
+}
+
+.CodeMirror .CodeMirror-code .cm-header-3 {
+font-size: 110%;
+line-height: 120%;
+}
+
+.CodeMirror .CodeMirror-code .cm-header-4,
+.CodeMirror .CodeMirror-code .cm-header-5 {
+font-size: 100%;
+line-height: 100%;
+}
