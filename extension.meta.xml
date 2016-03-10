@@ -13,6 +13,10 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="0.2" date="2016-03-10" min="2.6" max="2.x.x">
+			- Now works with multiple markdown textareas
+			- No more JS Error when there’s no textarea on the page 
+		</release>
 	  <release version="0.1.1" date="2016-03-09" min="2.6" max="2.x.x">
 			- Initial height = 1 line
 		</release>
