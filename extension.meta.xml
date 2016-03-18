@@ -2,7 +2,7 @@
 <extension id="simplemde" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>SimpleMDE Markdown Editor</name>
 	<description>Add SimpleMDE Markdown Editor to markdown enabled fields.</description>
-	<repo type="github">https://github.com/animaux/are_you_sure</repo>
+	<repo type="github">https://github.com/animaux/simplemde</repo>
 	<types>
 		<type>Interface</type>
 	</types>
