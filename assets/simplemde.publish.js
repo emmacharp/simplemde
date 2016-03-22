@@ -32,6 +32,10 @@
 				minHeight = '15';
 			} else if (rows <= 10) {
 				minHeight = '21.3';
+			} else if (rows <= 13) {
+				minHeight = '27.6';
+			} else if (rows <= 16) {
+				minHeight = '33.9';
 			} else {
 				minHeight = (rows === '0') ? false : ((( Math.round (rows * 206.666666 - 1) ) / 100));
 			}
