@@ -1,12 +1,10 @@
-# SimpleMDE Markdown Editor
+# Symphony CMS »Materie« Backend Theme
 
-Add [SimpleMDE Markdown Editor](https://github.com/NextStepWebs/simplemde-markdown-editor/) to markdown enabled fields in the Symphony CMS publish area.
-
-![SimpleMDE Markdown Editor - Publish UI](https://cloud.githubusercontent.com/assets/870227/13945847/d98efd0c-f010-11e5-85f5-bcbe38c930fa.png)
+Material Design inspired Backend Style to override the Symphony CMS standard styles.
 
 ## Usage
 
-Install and activate. Options are currently only configurable in `assets/simplemde.publish.js`. 
+Install and activate.
 
 ## Acknowledgement
 
