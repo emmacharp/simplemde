@@ -1,6 +1,6 @@
 <?php
 
-	Class extension_materie extends Extension{
+	Class extension_simplemde extends Extension{
 
 		public function getSubscribedDelegates(){
 			return array(
@@ -21,8 +21,10 @@
         $callback = Symphony::Engine()->getPageCallback();
 
         if ($callback['driver'] == 'publish' && $callback['context']['page'] !== 'index') {
-            Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/materie/assets/materie.publish.css');
-            Administration::instance()->Page->addScriptToHead(URL . '/extensions/materie/assets/materie.publish.js');
+            Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/simplemde/assets/simplemde.min.css');
+            Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/simplemde/assets/simplemde.publish.css');
+            Administration::instance()->Page->addScriptToHead(URL . '/extensions/simplemde/assets/simplemde.min.js');
+            Administration::instance()->Page->addScriptToHead(URL . '/extensions/simplemde/assets/simplemde.publish.js');
         }
     }
 
