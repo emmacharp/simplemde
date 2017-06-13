@@ -21,6 +21,7 @@
         $callback = Symphony::Engine()->getPageCallback();
 
         if ($callback['driver'] == 'publish' && $callback['context']['page'] !== 'index') {
+            Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/simplemde/assets/font-awesome.min.css');
             Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/simplemde/assets/simplemde.min.css');
             Administration::instance()->Page->addStylesheetToHead(URL . '/extensions/simplemde/assets/simplemde.publish.css');
             Administration::instance()->Page->addScriptToHead(URL . '/extensions/simplemde/assets/simplemde.min.js');

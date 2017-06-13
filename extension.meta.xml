@@ -13,11 +13,14 @@
 		</author>
 	</authors>
 	<releases>
-        <release version="0.3" date="2016-03-22" min="2.6" max="2.x.x">
+    <release version="0.4" date="2017-06-13" min="2.6" max="2.x.x">
+			- Remove Fontawesome external dependency
+      - Update SimpleMDE to v1.11.2
+		</release>    <release version="0.3" date="2016-03-22" min="2.6" max="2.x.x">
 			- Editor height now adapts to the row-settings of the textarea
 			- Use Symphony's default font settings (instead of monospace fonts)
 		</release>
-        <release version="0.2" date="2016-03-10" min="2.6" max="2.x.x">
+    <release version="0.2" date="2016-03-10" min="2.6" max="2.x.x">
 			- Now works with multiple markdown textareas
 			- No more JS Error when there’s no textarea on the page 
 		</release>
@@ -28,7 +31,7 @@
 			- Initial Release
 		</release>
 	</releases>
-    <media>
-    	<item type="image" url="https://cloud.githubusercontent.com/assets/870227/13945847/d98efd0c-f010-11e5-85f5-bcbe38c930fa.png">Publish Area UI</item>
-    </media>
+  <media>
+    <item type="image" url="https://cloud.githubusercontent.com/assets/870227/13945847/d98efd0c-f010-11e5-85f5-bcbe38c930fa.png">Publish Area UI</item>
+  </media>
 </extension>
