@@ -12,9 +12,10 @@
 				element: element,
 				spellChecker: false,
 				status: false,
+				tabSize: 4,
 				indentWithTabs: false,
 				autoDownloadFontAwesome: false,
-				toolbar: ["heading-1","heading-2","heading-3","|","bold","italic","|","link","|","unordered-list","ordered-list","|","horizontal-rule"]
+				toolbar: ["heading-1","bold","unordered-list"]
 			}, options );
 			
 			var simplemde = new SimpleMDE(configuration);
