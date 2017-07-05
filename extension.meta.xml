@@ -19,7 +19,7 @@
 		</release>  
     <release version="0.4" date="2017-06-13" min="2.6" max="2.x.x">
 			- Remove Fontawesome external dependency
-      - Update SimpleMDE to v1.11.2
+			- Update SimpleMDE to v1.11.2
 		</release>    
 		<release version="0.3" date="2016-03-22" min="2.6" max="2.x.x">
 			- Editor height now adapts to the row-settings of the textarea
