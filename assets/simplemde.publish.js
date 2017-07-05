@@ -14,6 +14,7 @@
 				status: false,
 				tabSize: 4,
 				indentWithTabs: false,
+				forceSync: true,
 				autoDownloadFontAwesome: false,
 				toolbar: ["heading-1","bold","unordered-list"]
 			}, options );
