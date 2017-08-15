@@ -13,6 +13,9 @@
 		</author>
 	</authors>
 	<releases>
+	  <release version="0.4.3" date="2017-08-15" min="2.6" max="2.x.x">
+			- Restore borked toolbar
+		</release> 
 	  <release version="0.4.2" date="2017-07-05" min="2.6" max="2.x.x">
 			- Ensure compatibility with »Are you sure?«-extension by forcing textarea-sync
 		</release> 
