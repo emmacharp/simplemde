@@ -1,6 +1,6 @@
 # SimpleMDE Markdown Editor
 
-Add [SimpleMDE Markdown Editor](https://github.com/sparksuite/simplemde-markdown-editor) to markdown enabled fields in the Symphony CMS publish area.
+Add [SimpleMDE Markdown Editor](https://github.com/sparksuite/simplemde-markdown-editor) to markdown enabled fields in the Symphony CMS publish area.
 
 ![SimpleMDE Markdown Editor - Publish UI](https://cloud.githubusercontent.com/assets/870227/13945847/d98efd0c-f010-11e5-85f5-bcbe38c930fa.png)
 
