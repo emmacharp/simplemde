@@ -23,15 +23,16 @@
 			
 			$(element).closest('.field').addClass('field-simplemde');
 			
-			// Calculate min height based on the number of rows (default textboxes)
-			// or already existing height-class (multilingual textboxes)
+			// Calculate min height based on the number of rows (default textareas)
+			// or already existing height-class (textboxes and their multilingual variant)
 			
 			var minHeight;
 			var isMultilingualTextbox = $(element).closest('.field').is('.field-multilingual_textbox');
+			var isTextbox = $(element).closest('.field').is('.field-textbox');
 			
 			// Multilingual textboxes
 			
-			if (isMultilingualTextbox) {
+			if (isMultilingualTextbox || isTextbox) {
 				
 				var size = $(element).attr("class").match(/size[\w-]*\b/).toString().substr(5);
 				
