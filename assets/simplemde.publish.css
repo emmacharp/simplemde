@@ -63,14 +63,18 @@
   border-color: transparent;
   border-top-color: var(--color-ui);
   box-shadow: var(--shadow-up-smaller);
+  transition-duration: var(--duration-short);
 }
 
 .field-simplemde .editor-toolbar:hover {
   box-shadow: var(--shadow-up);
 }
 
-.field-simplemde:not(:hover):not(:focus-within) .editor-toolbar {
+.field-simplemde:not(:hover):not(:focus-within) .editor-toolbar,
+.field-simplemde:focus-within .editor-toolbar:not(:hover):not(:focus-within) {
   opacity: 0;
+  transition-delay: var(--duration-longest);
+  transition-duration: var(--duration-longer);
 }
 
 .field-simplemde .editor-toolbar a {
