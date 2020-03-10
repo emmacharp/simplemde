@@ -36,7 +36,7 @@
   line-height: 100%;
 }
 
-.field-simplemde {
+.field-simplemde, .field-simplemde .container {
   display: flex;
   flex-direction: column;
 }
